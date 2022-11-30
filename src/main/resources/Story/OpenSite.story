@@ -1,6 +1,6 @@
 Scenario: Open site Scenario (no variables)
 Given I am on the main application page
-Then number of invisible elements `By.xPath(//*[@class="top-navigation__item-text"])` is > `0`
+Then number of elements found by `By.xPath(//*[@class="top-navigation__item-text"])` is > `0`
 When I save number of elements located `By.xPath(//*[@class="top-navigation__item-text"])` to STORY variable `amountOfElementsInitial`
 
 Scenario: Succesfull steps (varibles in Examples table after Scenario)
